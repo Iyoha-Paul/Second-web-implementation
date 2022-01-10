@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #010313;
+  color: white;
+
+  text-align: center;
+}
+header header p {
+  font-size: 24px;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 80px;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+p {
+  font-size: 18px;
+  color: #cccccc;
+  line-height: 1.4;
+}
+footer h2{
+  text-transform: capitalize;
+}
+footer footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 30px 30px 150px 30px;
+}
+.NavLinks:link,
+.NavLinks:visited {
+  color: white;
+  text-decoration: none;
+  margin: 0px 32px;
+}
+.SmallTet {
+  font-size: 16px;
+}
+.NavLinks:hover,
+.NavLinks:active {
+  color: #8d9cff;
+
+  text-decoration: underline;
+  margin: 0px 32px;
+}
+
+.Heading {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 30px 30px 150px 30px;
+}
+.Container {
+}
+.FirstHead {
+  font-size: 18px;
+}
+.FirstHead h1 {
+  font-size: 56px;
+}
+.FirstHead p {
+  color: #cccccc;
+}
+.btn {
+  cursor: pointer;
+}
+.btn:hover {
+  border: 2px solid #8d9cff;
+}
+.LoginBtn {
+  font-size: 24px;
+  color: white;
+  background-color: #010313;
+  border: 2px solid #2945ff;
+  padding: 16px 40px;
+}
+.GetStdBtn {
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #2945ff;
+  padding: 12px 32px;
+  font-size: 18px;
+}
+.Email {
+  padding: 8px;
+  border: none;
+  font-size: 18px;
+  height: 30px;
+}
+.Form {
+  display: grid;
+  grid-template-columns: 2fr 182px;
+  margin: 48px 412px 150px 412px;
+  gap: 8px;
+}
+.Grey18 {
+  font-size: 18px;
+  color: #cccccc;
+}
+.LearnOptns {
+  margin: 64px 128px;
+  margin: 64px 128px 150px 128px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+.OptnLrn {
+  border: 1px solid #e5e5e54d;
+  padding: 48px 24px;
+}
+.ThirdHead {
+  background-color: #5a3fc41a;
+  width: 100%;
+  padding-top: 62px;
+  padding-bottom: 64px;
+}
+h4 {
+  font-size: 32px;
+  margin-bottom: 80px;
+}
+.Process {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 80px;
+  row-gap: 40px;
+}
+.FirstStep {
+  position: relative;
+  justify-self: center;
+}
+.Circle {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  bottom: 0px;
+  right: -20px;
+}
+.Body {
+  width: 33.66px;
+  height: 47.5px;
+  /* position: absolute;
+    right: 23px;
+    bottom: 10px; */
+}
+.plusSign {
+  width: 12.5px;
+  height: 23.5px;
+  position: absolute;
+  right: -14.5px;
+  bottom: 0px;
+}
+.GoodSign {
+  width: 22.5px;
+  height: 17.64px;
+  position: absolute;
+  left: 11.25px;
+  top: 15px;
+}
+.shield {
+  width: 45px;
+  height: 52.5px;
+}
+.Smile {
+  grid-column: -1/-2;
+  width: 45px;
+  height: 45px;
+}
+.Font24 {
+  font-size: 24px;
+  color: white;
+  align-self: end;
+  margin-bottom: 16px;
+}
+.Fourthscn {
+  padding-top: 150px;
+}
+.TestimonialSection{
+    display: grid;
+    gap: 64px;
+    grid-template-columns: 1fr 1fr;
+    margin: 64px 360px 400px 200px;
+    justify-items: center;
+}
+.ImgDescription{
+    align-self: center;
+}
+.ImgDescription h3{
+    text-align: left;
+    margin-bottom: 24px;
+}
+.ImgDescription p{
+    text-align: left;
+    color: white;
+    margin-bottom: 32px;
+
+}
+.ImgDescription .FirstHead{
+    color: white;
+    margin-bottom: 32px;
+}
+.ScrollBtn, .ScrollBtn:visited{
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color:  #010313;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 24px;
+}
+.ScrollBtn:hover, .ScrollBtn:active{
+   width: 40px;
+  height: 40px;
+  background-color:  #010313;
+  color: white;
+  border: 2px solid #2945ff;
+  stroke: #2945ff;
+  fill: #2945ff;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left: 24px;
+}
+.ScrollBtn:first-child{
+  margin-left: 0;
+}
